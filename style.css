@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0px;
+  background-color:black ;
+}
+#whole{
+  display:flex;
+  justify-content: space-between;
+  padding-left: 10%;
+    padding-right: 10%;
+}
+#outer{
+  height:700px;
+  width:500px;
+  border:2px solid white;
+  border-radius:20px;
+  background-color: white;
+  margin-top:100px;
+}
+.buttons{
+  height:60px;
+  width:60px;
+  border-radius:50px;
+}
+.butimage{
+  height:30px;
+  width:30px;
+}
+#audio{
+  display:none;
+}
+#panda{
+  margin-top:40px;
+  margin-bottom:20px;
+  height:500px;
+  width:440px;
+  border-radius: 10px;
+}
+#text{
+  color:black;
+  font-family: Helvetica,sans-serief;
+  
+}
+#sec{
+  height:400px;
+  width:500px;
+  border:2px solid white;
+  background-color:white;
+  margin-top:20px;
+  position:absolute;
+  right:200px;
+  top:200px;
+  border-radius:20px;
+  text-align:left;
+}
+#ol{
+  margin-top:30px;
+  margin-left:40px;
+}
+.nextsong{
+  font-size:20px;
+  line-height:1.5;
+  letter-spacing:1px;
+}
